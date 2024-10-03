@@ -34,7 +34,4 @@ pipeline{
                      subject: "${currentBuild.currentResult}: Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]"
         }
     }
-    
-    
-
 }
